@@ -1,0 +1,19 @@
+:root {
+  /* Backgrouds */
+  --bg-dark: #1e1b4b; /* Hero & Footer */
+  --bg-light: #f8fafc; /* Info Section */
+  --bg-accent: #e2e8f0; /* Quote Section */
+
+  /* Text */
+  --text-light: #f8fafc; /* Main Hero Text */
+  --text-muted: #c7d2fe; /* Hero Subtext / Links */
+  --text-dark: #1e1b4b; /* Info & Quote Text */
+
+  /* Accents */
+  --button-color: #8b5cf6; /* Buttons */
+  --border-color: #4338ca; /* Image placeholders */
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}

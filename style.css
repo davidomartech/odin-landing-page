@@ -5,6 +5,7 @@
   --bg-accent: #e2e8f0; /* Quote Section */
 
   /* Text */
+  --text-logo: #f8fafc;
   --text-light: #f8fafc; /* Main Hero Text */
   --text-muted: #c7d2fe; /* Hero Subtext / Links */
   --text-dark: #1e1b4b; /* Info & Quote Text */
@@ -17,3 +18,87 @@
 body {
   font-family: "Roboto", sans-serif;
 }
+
+.mw960 {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* Typography */
+.header-logo {
+  font-size: 32px;
+  font-weight: 900;
+  color: var(--text-logo);
+}
+
+.hero-cta-title {
+  font-size: 48px;
+  color: var(--text-light);
+}
+
+.hero-cta-body {
+  font-size: 18px;
+  color: var(--text-muted);
+}
+
+.header-nav a {
+  text-decoration: none;
+  color: var(--text-muted);
+  font-weight: 600;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.header-nav a:hover {
+  color: white;
+}
+
+.hero-cta-btn {
+  padding: 16px 24px;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: var(--button-color);
+  color: var(--text-logo);
+  border: none;
+  cursor: pointer;
+}
+
+/* End Typography */
+
+/* Hero */
+
+.hero-container {
+  background-color: var(--bg-dark);
+  padding-top: 32px;
+  padding-bottom: 64px;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-nav {
+  display: flex;
+  gap: 16px;
+}
+
+.hero-content {
+  display: flex;
+  gap: 40px;
+  margin-top: 72px;
+}
+
+.hero-content img {
+  max-width: 450px;
+}
+
+.hero-cta {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  align-items: flex-start;
+}
+
+/* End Hero */

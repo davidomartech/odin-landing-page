@@ -169,3 +169,40 @@ body {
 }
 
 /* End Testimonial */
+
+/* CTA */
+
+.cta-container .cta-body {
+  margin: 120px auto;
+  background: linear-gradient(135deg, var(--border-color), var(--button-color));
+  color: white;
+  padding: 84px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cta-heading {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.cta-text {
+  font-size: 16px;
+}
+
+.cta-btn {
+  background-color: var(--button-color);
+  border: none;
+  color: white;
+  padding: 16px 24px;
+  font-size: 22px;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+  box-shadow: 4px 5px 5px #2f2795;
+}
+
+.cta-btn:hover {
+  box-shadow: 5px 10px 5px #2f2795;
+  transition: box-shadow 500ms;
+}

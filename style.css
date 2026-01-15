@@ -19,8 +19,8 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-.mw960 {
-  max-width: 960px;
+.mw1200 {
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -102,3 +102,45 @@ body {
 }
 
 /* End Hero */
+
+/* Main Content */
+
+main {
+  padding-top: 48px;
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 52px;
+}
+
+.info-title {
+  font-size: 18px;
+  text-align: center;
+  margin-top: 12px;
+  font-weight: 600;
+}
+
+.main-content img {
+  max-width: 200px;
+  color: var(--text-dark);
+}
+
+.info-header {
+  color: var(--text-dark);
+  font-size: 48px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.info-header::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 4px;
+  background-color: var(--button-color);
+  margin: 10px auto;
+}
+
+/* End Main Content */

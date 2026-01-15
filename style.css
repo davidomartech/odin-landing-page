@@ -206,3 +206,12 @@ body {
   box-shadow: 5px 10px 5px #2f2795;
   transition: box-shadow 500ms;
 }
+
+.main-footer {
+  text-align: center;
+  margin-top: 32px 0;
+  padding: 52px;
+  background-color: var(--bg-dark);
+  color: white;
+  font-size: 18px;
+}
